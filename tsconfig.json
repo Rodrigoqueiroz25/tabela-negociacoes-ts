@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "app/dist/js",
+        "target": "ES6",
+        "noEmitOnError": true, // não criar js caso haja erro no ts
+        "noImplicitAny": true, //não inferir tipo any para tudo que não tem tipo explicito.
+        "removeComments": true,
+        "strictNullChecks": true, // obriga a lidar com propriedades que podem ser null.
+        "experimentalDecorators": true, //para poder usar decorators
+        "sourceMap": true // para debug
+    },
+    "include": ["app/src/**/*"]
+}
